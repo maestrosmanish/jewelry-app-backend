@@ -1,0 +1,122 @@
+ for order -->{
+  "user": "68b17806e028d7a5ac7902c1",
+  "address": {
+    "fullName": "Manish Khare",
+    "phone": "07723941911",
+    "street": "21 Vikas Nagar",
+    "city": "Bhopal",
+    "state": "MP",
+    "pincode": "462023"
+  },
+  "paymentMethod": "online", 
+  "products": [
+    {
+      "product": "68b2a3ad29f386acfd1ac4b0",
+      "name": "Mine Diamond Earring",
+      "price": 232166,
+      "discount": 35,
+      "discountedPrice": 150907.9,
+      "quantity": 8,
+      "images": ["/uploads/1756537773391-casual_3.jpg"]
+    }
+  ],
+  "totalPrice": 1857328,
+  "totalDiscount": 650064.8,
+  "finalPrice": 1207263.2,
+  "grandTotal": 1267626.36,
+  "status": "pending",
+  "createdAt": "2025-08-30T09:10:00.000Z"
+}
+
+ add to cart-->
+
+{
+  "productId": "68b2a3ad29f386acfd1ac4b0",
+  "quantity": 2
+} 
+
+remove from cart-->{ 68b2a3ad29f386acfd1ac4b0 }
+
+add user-->
+{
+{
+  "_id": "68b2c1234f0a9b88ac90d111",
+  "fullName": "Manish Khare",
+  "email": "manish@example.com",
+  "phone": "9876543210",
+  "password": "$2a$10$8V/dfnN1UZt.qsNwx9a2/umY2E7RZ0e5KZfK5sbUtP3z/5zPO7y1i", 
+  "role": "user",
+  "address": {
+    "fullName": "Manish Khare",
+    "phone": "9876543210",
+    "street": "21 Vikas Nagar",
+    "city": "Bhopal",
+    "state": "MP",
+    "pincode": "462023"
+  },
+  "isActive": true,
+  "createdAt": "2025-08-30T09:05:23.512Z",
+  "updatedAt": "2025-08-30T09:05:23.512Z",
+  "__v": 0
+}
+
+order created!!-->
+[
+  {
+    "address": {
+      "fullName": "Manish Khare",
+      "phone": "07723941911",
+      "street": "21 Vikas Nagar",
+      "city": "Bhopal",
+      "state": "MP",
+      "pincode": "462023"
+    },
+    "_id": "68b2b95a40d8e483e6b689af",
+    "user": {
+      "_id": "68b17806e028d7a5ac7902c1",
+      "email": "k@gmail.com"
+    },
+    "products": [
+      {
+        "product": {
+          "_id": "68b2a3ad29f386acfd1ac4b0",
+          "name": "Mine Diamond Earring",
+          "images": [
+            "/uploads/1756537773391-casual_3.jpg"
+          ],
+          "metalType": "Gold",
+          "discountedPrice": null,
+          "stockMessage": "In stock",
+          "id": "68b2a3ad29f386acfd1ac4b0"
+        },
+        "name": "Mine Diamond Earring",
+        "metalType": "Gold",
+        "purity": "22k",
+        "weight": 10,
+        "size": "5",
+        "price": 232166,
+        "discount": 35,
+        "quantity": 8,
+        "discountedPrice": 150907.9,
+        "_id": "68b2b95a40d8e483e6b689b0"
+      }
+    ],
+    "totalDiscount": 650064.8,
+    "status": "pending",
+    "paymentMethod": "COD",
+    "paymentStatus": "pending",
+    "createdAt": "2025-08-30T08:42:02.018Z",
+    "updatedAt": "2025-08-30T08:42:02.018Z",
+    "totalPrice": 1207263.2,
+    "__v": 0
+  }
+] 
+
+for register user-->{ 
+{
+ "fullName":"manish khare",
+ "email":"manish@gmail.com",
+ "phone":"2323232323",
+ "password":"123456"
+}
+
